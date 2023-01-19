@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+}
+
+.nav{
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    margin:5px;
+    color:rgb(119, 42, 42);
+}
+
+li{
+    display: inline;
+    font-size: 17px;
+}
+a{
+    text-decoration: none;
+    color:black;
+    cursor: pointer;
+}
+
+
+a:hover{
+    color:red;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.links{
+    padding-right: 1em;
+}
+
+.imgs{
+    width:100%;
+}
+
+
+.infoSection{
+    margin:0;
+    background-color:rgb(50, 55, 51);
+}
+
+h3{
+    margin:0;
+}
+
+#location{
+    font-family: 'Domine', serif;
+}
+#creator{
+    margin:0;
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    color:black;
+}
+
+.pictures{
+    margin:0;
+    padding:0;
+}
+
+h3{
+    font-family: 'Fjalla One', sans-serif;
+    color:white
+}
+h4{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:white;
+    margin:10px;
+}
+
+.availability{
+    height:50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#working{
+    color:rgb(177, 76, 76);
+}
