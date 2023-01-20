@@ -6,12 +6,22 @@ body{
     background-color: bisque;
     display: flex;
     justify-content: space-between;
+    height:10vh;
+}
+.nav li{
+    position: relative;
+    top:5px;
+    font-size: 20px;
+}
+.nav h1{
+    position: relative;
+    font-size: 45px;
 }
 
 h1{
     font-family: 'Sofia Sans Extra Condensed', sans-serif;
     margin:5px;
-    color:rgb(119, 42, 42);
+    color:rgb(186, 82, 82);
 }
 
 li{
@@ -34,7 +44,7 @@ a:hover{
 .links{
     padding-right: 1em;
 }
-
+/*  nav? end*/
 .imgs{
     width:100%;
 }
@@ -43,6 +53,7 @@ a:hover{
 .infoSection{
     margin:0;
     background-color:rgb(50, 55, 51);
+    background-image: url("../China-Wok/Pic-for-Resturant/ChinaWokInside.jpeg");
 }
 
 h3{
@@ -81,6 +92,14 @@ h4{
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+    top:50px;
+}
+
+.availability h3{
+    font-size: 45px;
+    position: relative;
+    top:-10px;
 }
 
 #working{

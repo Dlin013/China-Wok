@@ -1,9 +1,5 @@
 body{
     margin: 0;
-    background-image: url("../China-Wok/Pic-for-Resturant/ChinaWokOutside.png");
-}
-background-image{
-    opacity: 0.6;
 }
 
 .nav{
@@ -48,11 +44,9 @@ a:hover{
 .links{
     padding-right: 1em;
 }
-/* nav end */
 
-.img img{
-    width:300px;
-    
+.menu img{
+    width:1000px;
 }
 
 
