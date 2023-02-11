@@ -51,8 +51,16 @@ a:hover{
 /* nav end */
 
 .img img{
-    width:300px;
-    
+    /* width:300px; */
+    max-width:380%;
+    height:auto;
+}
+
+.img{
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    grid-column-gap: 339px;
+    grid-row-gap: 60px;
 }
 
 
