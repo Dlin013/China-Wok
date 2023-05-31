@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-image: url("../China-Wok/Pic-for-Resturant/ChinaWokOutside.png");
+    
 }
 background-image{
     opacity: 0.6;
@@ -22,7 +22,7 @@ background-image{
     font-size: 45px;
 }
 
-h1{
+#myTitle{
     font-family: 'Sofia Sans Extra Condensed', sans-serif;
     margin:5px;
     color:rgb(186, 82, 82);
@@ -50,17 +50,53 @@ a:hover{
 }
 /* nav end */
 
-.img img{
-    /* width:300px; */
-    max-width:380%;
-    height:auto;
+.imgs img{
+    width:15em;
+}
+.imgs{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 17.4em;
+    grid-row-gap: 1em;
 }
 
-.img{
-    display: grid;
-    grid-template-columns: repeat(3,100px);
-    grid-column-gap: 339px;
-    grid-row-gap: 60px;
+/* #example{
+    font-size: 3.01em;
+    color: rgb(165, 68, 90);
+    display: flex;
+    justify-content: center;
 }
+
+#sizes{
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    font-style:italic;
+} */
+
+
+
+
+.titles{
+    position: relative;
+    left:29em;
+    width:400px;
+}
+#sizes{
+    margin-top:3px;
+}
+ #example{
+    position: relative;
+    left:25px;
+    font-size: 3.01em;
+    color: rgb(165, 68, 90);
+    margin-top: 3px;
+    width:400px;
+    margin-bottom: 3px;
+} 
+
+
+
+ 
 
 

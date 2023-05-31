@@ -7,6 +7,8 @@ body{
     display: flex;
     justify-content: space-between;
     height:10vh;
+    position: fixed;
+    width: 80em;
 }
 .nav li{
     position: relative;
